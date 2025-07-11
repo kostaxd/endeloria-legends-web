@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Navigation from '../components/Navigation';
 import Hero from '../components/Hero';
 import GameModes from '../components/GameModes';
 import HowToJoin from '../components/HowToJoin';
@@ -11,6 +12,7 @@ import Footer from '../components/Footer';
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <Navigation />
       <Hero />
       <GameModes />
       <HowToJoin />
